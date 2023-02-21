@@ -32,13 +32,13 @@ GROUP BY staff_id;
 SELECT COUNT(DISTINT names)
 FROM category;
 
-SELECT COUNT(DISTINCT first_name)
+SELECT COUNT(DISTINCT first_name, last_name)
 FROM staff;
 
-SELECT COUNT(DISTINCT first_name)
+SELECT COUNT(DISTINCT first_name, last_name)
 FROM actor;
 
-SELECT COUNT(DISTINCT first_name)
+SELECT COUNT(DISTINCT first_name,last_name)
 FROM customer;
 
 --7. What film has the most actors in it? (use film_actor table and get film_id)
